@@ -84,7 +84,7 @@ section{
 	position: relative;
 	width: 100%;
 	height: 100vh;
-	background: url(/img/backimg.jpg);
+	background: url("https://i.imgur.com/OUXMA4w.jpg");
 	background-size: cover;
 	background-position: center;
 	display: grid;
