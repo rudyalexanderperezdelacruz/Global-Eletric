@@ -45,7 +45,7 @@ header{
 	color: var(--bg-color);
 }
 small{
-	font-size: 9px;
+	font-size: 5px;
 	text-transform: uppercase;
 }
 .navbar{
