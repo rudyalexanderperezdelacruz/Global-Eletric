@@ -11,7 +11,7 @@
 	--bg-color: #fff;
 	--text-color: #221314;
 	--second-color: #5a7184;
-	--main-color: #F28F38;
+	--main-color: #1067cc;
 	--big-font: 6rem;
 	--h2-font: 3rem;
 	--p-font: 1.1rem;
@@ -44,6 +44,10 @@ header{
 	letter-spacing: 1px;
 	color: var(--bg-color);
 }
+small{
+	font-size: 9px;
+	text-transform: uppercase;
+}
 .navbar{
 	display: flex;
 }
@@ -56,7 +60,7 @@ header{
 	transition: ease .40s;
 }
 .navbar li:nth-child(5) a{
-	background: black;
+	background: var(--main-color);
 	color: white;
 	box-shadow: 5px 10px 30px rgb(85 85 85 / 20%);
 	border-radius: 4px;
@@ -110,17 +114,15 @@ section{
 .home-btn{
 	display: inline-block;
 	font-size: 18px;
-	padding: 15px 30px;
+	padding: 8px 25px;
     font-weight: 500;
-	background: white;
-	color: black;
+	background: var(--main-color);
+	color: white;
 	border-radius: 4px;
 	transition: ease .40s;
 }
-.home-btn:hover{
-	background: var(--bg-color);
+.home-btn:hover{	
 	transform: scale(1.1);
-    color: black;
 }
 header.sticky{
 	background: var(--bg-color);
@@ -128,7 +130,7 @@ header.sticky{
 	box-shadow: rgba(33,35,38, 0.1) 0px 10px 10px -10px;
 }
 .sticky .navbar li:nth-child(5) a{
-    background: black;
+    background: var(--main-color);
     color: white;
 }
 .sticky .logo{
